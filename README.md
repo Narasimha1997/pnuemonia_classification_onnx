@@ -1,7 +1,7 @@
-# pnuemonia_classification_onnx
-Pnuemonia classification at scale using ONNX runtime and an inference server with batching support.
+# pneumonia_classification_onnx
+Pneumonia classification at scale using ONNX runtime and an inference server with batching support.
 
-The project pnuemonia_classification is aimed at understanding the complete AI Research-Development-Production pipeline. The best approach for learning 
+The project pneumonia_classification is aimed at understanding the complete AI Research-Development-Production pipeline. The best approach for learning 
 is identified in `train.ipynb`, the model is built and trained. Later it is made ready for optimized inference by converting it to ONNX and executing on ONNX Runtime.
 This repo also provides a comphrensive understanding of how to export and use ONNX Models, if you are looking for a source to understand ONNX practically, you are
 at the right place.
@@ -47,7 +47,7 @@ for `93.8%` validation accuracy over 20 epochs. The model was trained on Google 
 <br/>
 Notebook : `train.ipynb`
 <br/>
-Dataset : [Kaggle Pnuemonia Chest X-Ray Images](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+Dataset : [Kaggle Pneumonia Chest X-Ray Images](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
 
 ### ONNX Runtime
